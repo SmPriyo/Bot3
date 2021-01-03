@@ -20,7 +20,7 @@ public class Config {
             FileTools.createFolder("configs");
             Properties saveProps = new Properties();
             saveProps.setProperty("bot-token", "1414070106:AAEG7-F7U2G9dMUoHd6rdtwvX40YXGG7IBM");
-            saveProps.setProperty("bot-username", "priyobakerbot");
+            saveProps.setProperty("bot-username", "@priyobakerbot");
             saveProps.setProperty("bot-master", "1032152179");
             saveProps.store(new FileOutputStream("configs/" +
                     Objects.requireNonNull(XMLs.getFromStringsXML(Main.DEF_CORE_STRINGS_XML, "config_file"))
